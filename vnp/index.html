@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="VNP-WEB, spécialiste de la création de sites web modernes et performants, propose des solutions innovantes adaptées à vos besoins.">
+    <title>VNP-WEB - Accueil</title>
+    <!-- Lien vers votre fichier CSS dans le dossier assets -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Ajout de BotUI CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/botui/build/botui-theme-default.css">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: white;
+            color: #333;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .nav-links {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .nav-links li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .nav-links a {
+            color: #000000;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('assets/img/banniere.png') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .hero h1 {
+            background: linear-gradient(to right, #000000, #d5a6e1, #000000);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 72px;
+            font-weight: bold;
+        }
+        .btn {
+            background-color: transparent;
+            color: #000000;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border: 2px solid #000000;
+            border-radius: 50px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .btn:hover {
+            background-color: #000000;
+            color: white;
+        }
+        .section {
+            padding: 40px 20px;
+        }
+        .contact-form {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 60%;
+            margin: 0 auto;
+        }
+        input, textarea {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 12px 25px;
+            background: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #333333;
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        /* Style spécifique à BotUI */
+        #botui-app {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 350px;
+            height: 450px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            z-index: 1000;
+            display: none;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        /* Style pour le bouton rond du chatbot */
+        #chat-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #000000;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+        /* Icône dans le bouton rond */
+        #chat-button i {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">VNP-WEB</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Bienvenue chez VNP-WEB</h1>
+            <p>Votre partenaire pour des solutions web innovantes.</p>
+            <a href="#about" class="btn">Découvrir</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>À propos de nous</h2>
+        <p>Nous sommes spécialisés dans la création de sites web modernes, performants et adaptés à vos besoins.</p>
+    </section>
+
+    <section class="section">
+        <h2>Nos Services</h2>
+        <p>Nous proposons la création de sites web modernes, rapides et adaptés à tous les supports.</p>
+    </section>
+
+    <!-- Ajout du chatbot BotUI -->
+    <div id="botui-app"></div>
+
+    <!-- Bouton rond pour ouvrir le chat -->
+    <div id="chat-button">
+        <i class="fa fa-comment"></i>
+    </div>
+
+    <!-- Script BotUI -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/botui/build/botui.min.js"></script>
+    <script>
+        var botui = new BotUI('botui-app');
+
+        // Afficher un message de bienvenue
+        botui.message.add({
+            content: 'Bonjour! Je suis votre assistant virtuel. Comment puis-je vous aider aujourd\'hui?'
+        }).then(function () {
+            return botui.action.text({
+                action: {
+                    placeholder: 'Écrivez votre question ici'
+                }
+            });
+        }).then(function (res) {
+            botui.message.add({
+                content: 'Vous avez écrit: ' + res.value
+            });
+            botui.message.add({
+                content: 'Je suis en train d\'apprendre pour mieux vous répondre.'
+            });
+        });
+
+        // Référencement du bouton et du chatbot
+        const chatButton = document.getElementById('chat-button');
+        const botuiApp = document.getElementById('botui-app');
+
+        // Afficher le chat quand le bouton est cliqué
+        chatButton.addEventListener('click', function() {
+            if (botuiApp.style.display === 'none') {
+                botuiApp.style.display = 'flex';  // Afficher le chat
+            } else {
+                botuiApp.style.display = 'none';  // Cacher le chat
+            }
+        });
+
+        // Initialement, cacher le chatbot
+        botuiApp.style.display = 'none';
+    </script>
+
+    <footer>
+        <p>&copy; 2025 VNP-WEB. Tous droits réservés.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/gp.vnp.web.redaction.seo.traduction.wordpress.crea/"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/PruvostSEO"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/vnp-web-redaction-seo-wordpress-traduction/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html
