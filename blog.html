@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Le blog de VNP-WEB : Découvrez nos articles sur le web, la création de sites, et les tendances numériques.">
+    <title>Blog - VNP-WEB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        :root {
+            --primary-color: #000000;
+            --secondary-color: #67a4ff;
+            --text-color: #333;
+            --background-color: #f4f4f4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+
+        header {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+
+        header.scrolled {
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .nav-links {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-left: 30px;
+        }
+
+        .nav-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--secondary-color);
+        }
+
+        .blog-container {
+            margin-top: 100px;
+            padding: 40px 20px;
+        }
+
+        .blog-post {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .blog-post h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .blog-post p {
+            font-size: 1rem;
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .blog-post .date {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .blog-post .btn-read-more {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 50px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .blog-post .btn-read-more:hover {
+            background-color: var(--secondary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html" style="text-decoration: none; color:#000000">VNP-WEB</a></div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="blog-container">
+        <!-- Article 1 -->
+        <div class="blog-post">
+            <h2>Titre de l'article 1</h2>
+            <p class="date">Publié le [Date de publication]</p>
+            <p>Introduction ou résumé de l'article 1. Remplissez cette section avec un extrait de votre contenu, pour que les visiteurs puissent avoir un aperçu avant de cliquer sur "Lire la suite".</p>
+            <a href="article1.html" class="btn-read-more">Lire la suite</a>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="blog-post">
+            <h2>Titre de l'article 2</h2>
+            <p class="date">Publié le [Date de publication]</p>
+            <p>Introduction ou résumé de l'article 2. Remplissez cette section avec un extrait de votre contenu, pour que les visiteurs puissent avoir un aperçu avant de cliquer sur "Lire la suite".</p>
+            <a href="article2.html" class="btn-read-more">Lire la suite</a>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="blog-post">
+            <h2>Titre de l'article 3</h2>
+            <p class="date">Publié le [Date de publication]</p>
+            <p>Introduction ou résumé de l'article 3. Remplissez cette section avec un extrait de votre contenu, pour que les visiteurs puissent avoir un aperçu avant de cliquer sur "Lire la suite".</p>
+            <a href="article3.html" class="btn-read-more">Lire la suite</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 VNP-WEB. Tous droits réservés.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/gp.vnp.web.redaction.seo.traduction.wordpress.crea/"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/PruvostSEO"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/vnp-web-redaction-seo-wordpress-traduction/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
