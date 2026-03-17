@@ -72,5 +72,26 @@
       "subtitle": "Neem vandaag nog contact met ons op en laten we samen uw ideeën tot leven brengen",
       "btn": "Vraag een gratis offerte aan →"
     }
+  },
+  "chatbot": {
+    "title": "VNP-WEB Assistent",
+    "status": "Online",
+    "placeholder": "Typ uw bericht...",
+    "welcome_msg": "Hallo! Ik ben de virtuele assistent van VNP-WEB. Hoe kan ik u vandaag helpen?",
+    "wait_msg": "Ik heb uw bericht goed ontvangen! Ik word binnenkort gekoppeld aan een echte AI om u te antwoorden."
+  },
+  "footer": {
+    "description": "Professionele webontwikkeling, SEO en contentcreatie voor uw online succes.",
+    "quick_links": "Snelle links",
+    "our_services": "Onze Diensten",
+    "services_list": {
+      "web_writing": "Web Copywriting",
+      "seo": "SEO",
+      "wordpress": "WordPress",
+      "translation": "EN-FR Vertaling",
+      "site_creation": "Website Creatie"
+    },
+    "contact_title": "Contact",
+    "rights": "Alle rechten voorbehouden."
   }
 }

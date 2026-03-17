@@ -23,8 +23,8 @@
             </svg>
           </div>
           <div>
-            <h3>Assistant VNP-WEB</h3>
-            <span class="status">En ligne</span>
+            <h3>{{ t('chatbot.title') }}</h3>
+            <span class="status">{{ t('chatbot.status') }}</span>
           </div>
         </div>
         <button class="close-btn" @click="isOpen = false">✕</button>
@@ -46,7 +46,9 @@
             </div>
             
             <div class="message-content">
-              <p>{{ msg.text }}</p>
+              <p v-if="msg.isTranslation">{{ t(msg.textKey) }}</p>
+              <p v-else>{{ msg.text }}</p>
+              
               <span class="timestamp">{{ msg.time }}</span>
             </div>
           </div>
@@ -58,7 +60,7 @@
         <input 
           type="text" 
           v-model="newMessage" 
-          placeholder="Tapez votre message..." 
+          :placeholder="t('chatbot.placeholder')" 
           @keyup.enter="sendMessage"
         />
         <button class="send-btn" @click="sendMessage">
@@ -73,6 +75,9 @@
 
 <script setup>
 import { ref, nextTick } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 
 const isOpen = ref(false);
 const newMessage = ref('');
@@ -96,7 +101,8 @@ const openChat = () => {
   if (messages.value.length === 0) {
     messages.value.push({
       id: Date.now(),
-      text: "Bonjour ! Je suis l'assistant virtuel de VNP-WEB. Comment puis-je vous aider aujourd'hui ?",
+      textKey: 'chatbot.welcome_msg', // On stocke la CLÉ au lieu du texte traduit
+      isTranslation: true,            // On signale au HTML qu'il faut traduire ceci
       sender: 'bot',
       time: getCurrentTime()
     });
@@ -105,9 +111,11 @@ const openChat = () => {
 
 const sendMessage = () => {
   if (newMessage.value.trim() !== '') {
+    // 1. Message de l'utilisateur
     messages.value.push({
       id: Date.now(),
-      text: newMessage.value,
+      text: newMessage.value,         // Texte brut de l'utilisateur
+      isTranslation: false,           // Ce n'est pas une clé de traduction
       sender: 'user',
       time: getCurrentTime()
     });
@@ -115,10 +123,12 @@ const sendMessage = () => {
     newMessage.value = '';
     scrollToBottom();
 
+    // 2. Réponse automatique du bot
     setTimeout(() => {
       messages.value.push({
         id: Date.now(),
-        text: "J'ai bien reçu votre message ! Je serai bientôt connecté à une vraie IA pour vous répondre.",
+        textKey: 'chatbot.wait_msg',  // On stocke la CLÉ de la réponse
+        isTranslation: true,          // On signale qu'il faut traduire
         sender: 'bot',
         time: getCurrentTime()
       });
@@ -129,222 +139,34 @@ const sendMessage = () => {
 </script>
 
 <style scoped>
-.chatbot-container {
-  font-family: 'Dunbar Text', system-ui, -apple-system, sans-serif;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-/* Bulle flottante avec l'icône de message SVG */
-.chat-bubble-button {
-  background: linear-gradient(135deg, #0047ff 0%, #00b4ff 100%);
-  color: white;
-  border: none;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s;
-}
-
-.chat-bubble-button:hover {
-  transform: scale(1.05);
-}
-
-.message-icon {
-  width: 28px;
-  height: 28px;
-  fill: white;
-}
-
-/* Fenêtre de chat */
-.chat-window {
-  width: 380px;
-  max-width: 90vw;
-  background-color: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  height: 550px;
-  max-height: 80vh;
-}
-
-.chat-header {
-  background: linear-gradient(135deg, #0047ff 0%, #00b4ff 100%);
-  color: white;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-info {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.bot-avatar-header {
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.chat-header h3 {
-  margin: 0;
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-.status {
-  font-size: 0.85rem;
-  opacity: 0.8;
-}
-
-.close-btn {
-  background: none;
-  border: none;
-  color: white;
-  font-size: 1.3rem;
-  cursor: pointer;
-  opacity: 0.7;
-}
-
-.close-btn:hover {
-  opacity: 1;
-}
-
-.chat-body {
-  flex-grow: 1;
-  padding: 20px;
-  overflow-y: auto;
-  background-color: #f9fafb;
-  scroll-behavior: smooth;
-}
-
-.chat-messages {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.message {
-  display: flex;
-  gap: 10px;
-  align-items: flex-start;
-}
-
-.bot-logo, .user-logo {
-  font-size: 1.2rem;
-  background-color: #f0f0f0;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #0047ff;
-}
-
-.message-content {
-  background-color: white;
-  padding: 15px;
-  border-radius: 10px 10px 10px 0;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-  max-width: 80%;
-}
-
-.user-message {
-  flex-direction: row-reverse;
-  align-self: flex-end;
-}
-
-.user-message .message-content {
-  background-color: #0047ff;
-  color: white;
-  border-radius: 10px 10px 0 10px;
-}
-
-.message p {
-  margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  word-wrap: break-word;
-}
-
-.timestamp {
-  font-size: 0.75rem;
-  color: #a0aec0;
-  margin-top: 5px;
-  display: block;
-  text-align: right;
-}
-
-.user-message .timestamp {
-  color: rgba(255,255,255,0.7);
-}
-
-.chat-input {
-  display: flex;
-  padding: 15px 20px;
-  background-color: white;
-  border-top: 1px solid #edf2f7;
-  gap: 10px;
-  align-items: center;
-}
-
-.chat-input input {
-  flex-grow: 1;
-  border: 1px solid #e2e8f0;
-  padding: 10px 15px;
-  border-radius: 20px;
-  outline: none;
-}
-
-.chat-input input:focus {
-  border-color: #0047ff;
-}
-
-/* Bouton d'envoi rond sombre avec avion en papier blanc */
-.send-btn {
-  background-color: #0f172a;
-  color: white;
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: background-color 0.2s;
-  flex-shrink: 0;
-}
-
-.send-btn:hover {
-  background-color: #1e293b;
-}
-
-.plane-icon {
-  width: 18px;
-  height: 18px;
-  fill: currentColor;
-  margin-left: -2px; /* Ajustement visuel pour centrer l'avion */
-}
+/* Conserve 100% de ton CSS ici, aucune modification n'est requise ! */
+.chatbot-container { font-family: 'Dunbar Text', system-ui, -apple-system, sans-serif; position: fixed; bottom: 20px; right: 20px; z-index: 1000; display: flex; flex-direction: column; align-items: flex-end; }
+.chat-bubble-button { background: linear-gradient(135deg, #0047ff 0%, #00b4ff 100%); color: white; border: none; width: 60px; height: 60px; border-radius: 50%; box-shadow: 0 5px 20px rgba(0,0,0,0.2); cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.3s; }
+.chat-bubble-button:hover { transform: scale(1.05); }
+.message-icon { width: 28px; height: 28px; fill: white; }
+.chat-window { width: 380px; max-width: 90vw; background-color: #ffffff; border-radius: 15px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); overflow: hidden; display: flex; flex-direction: column; height: 550px; max-height: 80vh; }
+.chat-header { background: linear-gradient(135deg, #0047ff 0%, #00b4ff 100%); color: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; }
+.header-info { display: flex; align-items: center; gap: 15px; }
+.bot-avatar-header { background: rgba(255, 255, 255, 0.2); border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; }
+.chat-header h3 { margin: 0; font-size: 1.1rem; font-weight: bold; }
+.status { font-size: 0.85rem; opacity: 0.8; }
+.close-btn { background: none; border: none; color: white; font-size: 1.3rem; cursor: pointer; opacity: 0.7; }
+.close-btn:hover { opacity: 1; }
+.chat-body { flex-grow: 1; padding: 20px; overflow-y: auto; background-color: #f9fafb; scroll-behavior: smooth; }
+.chat-messages { display: flex; flex-direction: column; gap: 15px; }
+.message { display: flex; gap: 10px; align-items: flex-start; }
+.bot-logo, .user-logo { font-size: 1.2rem; background-color: #f0f0f0; border-radius: 50%; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #0047ff; }
+.message-content { background-color: white; padding: 15px; border-radius: 10px 10px 10px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.05); max-width: 80%; }
+.user-message { flex-direction: row-reverse; align-self: flex-end; }
+.user-message .message-content { background-color: #0047ff; color: white; border-radius: 10px 10px 0 10px; }
+.message p { margin: 0; font-size: 0.95rem; line-height: 1.5; word-wrap: break-word; }
+.timestamp { font-size: 0.75rem; color: #a0aec0; margin-top: 5px; display: block; text-align: right; }
+.user-message .timestamp { color: rgba(255,255,255,0.7); }
+.chat-input { display: flex; padding: 15px 20px; background-color: white; border-top: 1px solid #edf2f7; gap: 10px; align-items: center; }
+.chat-input input { flex-grow: 1; border: 1px solid #e2e8f0; padding: 10px 15px; border-radius: 20px; outline: none; }
+.chat-input input:focus { border-color: #0047ff; }
+.send-btn { background-color: #0f172a; color: white; border: none; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background-color 0.2s; flex-shrink: 0; }
+.send-btn:hover { background-color: #1e293b; }
+.plane-icon { width: 18px; height: 18px; fill: currentColor; margin-left: -2px; }
 </style>
+

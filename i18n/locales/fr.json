@@ -72,5 +72,26 @@
       "subtitle": "Contactez-nous dès aujourd'hui et donnons vie à vos idées ensemble",
       "btn": "Demander un devis gratuit →"
     }
+  },
+  "chatbot": {
+    "title": "Assistant VNP-WEB",
+    "status": "En ligne",
+    "placeholder": "Tapez votre message...",
+    "welcome_msg": "Bonjour ! Je suis l'assistant virtuel de VNP-WEB. Comment puis-je vous aider aujourd'hui ?",
+    "wait_msg": "J'ai bien reçu votre message ! Je serai bientôt connecté à une vraie IA pour vous répondre."
+  },
+  "footer": {
+    "description": "Développement web professionnel, SEO et rédaction de contenu pour votre réussite en ligne.",
+    "quick_links": "Liens rapides",
+    "our_services": "Nos Services",
+    "services_list": {
+      "web_writing": "Rédaction web",
+      "seo": "SEO",
+      "wordpress": "WordPress",
+      "translation": "Traduction EN-FR",
+      "site_creation": "Création de sites"
+    },
+    "contact_title": "Contact",
+    "rights": "Tous droits réservés."
   }
 }

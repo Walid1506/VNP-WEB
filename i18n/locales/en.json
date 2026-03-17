@@ -72,5 +72,26 @@
       "subtitle": "Contact us today and let's bring your ideas to life together",
       "btn": "Get a free quote →"
     }
+  },
+  "chatbot": {
+    "title": "VNP-WEB Assistant",
+    "status": "Online",
+    "placeholder": "Type your message...",
+    "welcome_msg": "Hello! I am the VNP-WEB virtual assistant. How can I help you today?",
+    "wait_msg": "I received your message! I will soon be connected to a real AI to answer you."
+  },
+  "footer": {
+    "description": "Professional web development, SEO, and content writing for your online success.",
+    "quick_links": "Quick links",
+    "our_services": "Our Services",
+    "services_list": {
+      "web_writing": "Web Copywriting",
+      "seo": "SEO",
+      "wordpress": "WordPress",
+      "translation": "EN-FR Translation",
+      "site_creation": "Website Creation"
+    },
+    "contact_title": "Contact",
+    "rights": "All rights reserved."
   }
 }

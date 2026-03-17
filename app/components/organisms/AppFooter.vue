@@ -4,7 +4,7 @@
       
       <div class="footer-col brand-col">
         <h3>VNP-WEB</h3>
-        <p>Développement web professionnel, SEO et rédaction de contenu pour votre réussite en ligne.</p>
+        <p>{{ $t('footer.description') }}</p>
         <div class="social-links">
           <a href="#">Fb</a>
           <a href="#">Tw</a>
@@ -13,29 +13,29 @@
       </div>
 
       <div class="footer-col">
-        <h4>Liens rapides</h4>
+        <h4>{{ $t('footer.quick_links') }}</h4>
         <nav>
-          <NuxtLink to="/">Accueil</NuxtLink>
-          <NuxtLink to="/services">Services</NuxtLink>
-          <NuxtLink to="/portfolio">Portfolio</NuxtLink>
-          <NuxtLink to="/blog">Blog</NuxtLink>
-          <NuxtLink to="/contact">Contact</NuxtLink>
+          <NuxtLink to="/">{{ $t('nav.home') }}</NuxtLink>
+          <NuxtLink to="/services">{{ $t('nav.services') }}</NuxtLink>
+          <NuxtLink to="/portfolio">{{ $t('nav.portfolio') }}</NuxtLink>
+          <NuxtLink to="/blog">{{ $t('nav.blog') }}</NuxtLink>
+          <NuxtLink to="/contact">{{ $t('nav.contact') }}</NuxtLink>
         </nav>
       </div>
 
       <div class="footer-col">
-        <h4>Nos Services</h4>
+        <h4>{{ $t('footer.our_services') }}</h4>
         <nav>
-          <a href="#">Rédaction web</a>
-          <a href="#">SEO</a>
-          <a href="#">WordPress</a>
-          <a href="#">Traduction EN-FR</a>
-          <a href="#">Création de sites</a>
+          <a href="#">{{ $t('footer.services_list.web_writing') }}</a>
+          <a href="#">{{ $t('footer.services_list.seo') }}</a>
+          <a href="#">{{ $t('footer.services_list.wordpress') }}</a>
+          <a href="#">{{ $t('footer.services_list.translation') }}</a>
+          <a href="#">{{ $t('footer.services_list.site_creation') }}</a>
         </nav>
       </div>
 
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4>{{ $t('footer.contact_title') }}</h4>
         <div class="contact-info">
           <p>📧 sio.pruvost@gmail.com</p>
           <p>📞 +33 1 23 45 67 89</p>
@@ -45,7 +45,7 @@
 
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 VNP-WEB. Tous droits réservés.</p>
+      <p>&copy; 2026 VNP-WEB. {{ $t('footer.rights') }}</p>
     </div>
   </footer>
 </template>
