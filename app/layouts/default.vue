@@ -1,5 +1,8 @@
 <template>
   <div>
-    <slot />
+    <OrganismsAppHeader />
+    
+    <slot /> <OrganismsAppFooter />
+    <OrganismsChatBotInterface />
   </div>
 </template>

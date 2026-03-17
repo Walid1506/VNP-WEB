@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "planning": "Planning",
+    "about": "À propos",
+    "contact": "Contact",
+    "quote": "Demander un devis"
+  },
+  "home": {
+    "hero": {
+      "title_start": "Créons ensemble votre ",
+      "title_highlight": "site web parfait",
+      "subtitle": "Des solutions web performantes, modernes et optimisées pour faire grandir votre entreprise.",
+      "btn": "Demander un devis →"
+    },
+    "stats": {
+      "projects": "Projets réalisés",
+      "satisfaction": "Clients satisfaits",
+      "experience": "Années d'expérience",
+      "support": "Support disponible"
+    },
+    "services": {
+      "title": "Nos services",
+      "subtitle": "Des solutions web complètes pour répondre à tous vos besoins digitaux",
+      "web_writing": "Rédaction web",
+      "web_writing_desc": "Contenus optimisés pour le web et le référencement naturel.",
+      "seo": "SEO",
+      "seo_desc": "Optimisation pour les moteurs de recherche et amélioration du référencement.",
+      "wp": "WordPress",
+      "wp_desc": "Création et personnalisation de sites WordPress professionnels.",
+      "btn": "Découvrir tous nos services →"
+    },
+    "features": {
+      "title": "Nos fonctionnalités",
+      "subtitle": "Des outils innovants pour améliorer votre expérience utilisateur",
+      "booking": "Réservation en ligne",
+      "booking_desc": "Réservez votre consultation directement depuis notre site avec notre système de planning intégré.",
+      "chat": "Chat IA 24/7",
+      "chat_desc": "Notre assistant virtuel intelligent répond à vos questions à tout moment.",
+      "payment": "Paiement sécurisé",
+      "payment_desc": "Transactions sécurisées et protection de vos données personnelles.",
+      "learn_more": "En savoir plus →"
+    },
+    "why_us": {
+      "title": "Pourquoi choisir VNP-WEB ?",
+      "subtitle": "Une expertise reconnue au service de votre réussite digitale",
+      "team": "Équipe expérimentée",
+      "team_desc": "Des développeurs passionnés et qualifiés à votre service.",
+      "quality": "Qualité garantie",
+      "quality_desc": "Des solutions web aux standards de l'industrie.",
+      "speed": "Livraison rapide",
+      "speed_desc": "Respect des délais et communication transparente."
+    },
+    "testimonials": {
+      "title": "Ce que disent nos clients",
+      "subtitle": "La satisfaction de nos clients est notre priorité",
+      "t1_name": "Marie Dubois",
+      "t1_role": "Boutique en ligne",
+      "t1_quote": "\"VNP-WEB a transformé notre présence en ligne. Notre trafic a augmenté de 200% !\"",
+      "t2_name": "Jean Martin",
+      "t2_role": "Cabinet d'avocat",
+      "t2_quote": "\"Professionnalisme et expertise. Notre site reflète parfaitement notre image de marque.\"",
+      "t3_name": "Sophie Laurent",
+      "t3_role": "Restaurant gastronomique",
+      "t3_quote": "\"Un site magnifique et facile à gérer. Nos réservations en ligne ont explosé !\""
+    },
+    "cta": {
+      "title": "Prêt à lancer votre projet ?",
+      "subtitle": "Contactez-nous dès aujourd'hui et donnons vie à vos idées ensemble",
+      "btn": "Demander un devis gratuit →"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "planning": "Planning",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Get a quote"
+  },
+  "home": {
+    "hero": {
+      "title_start": "Let's build your ",
+      "title_highlight": "perfect website",
+      "subtitle": "High-performance, modern, and optimized web solutions to grow your business.",
+      "btn": "Get a quote →"
+    },
+    "stats": {
+      "projects": "Projects completed",
+      "satisfaction": "Satisfied clients",
+      "experience": "Years experience",
+      "support": "Support available"
+    },
+    "services": {
+      "title": "Our services",
+      "subtitle": "Comprehensive web solutions for all your digital needs",
+      "web_writing": "Web Copywriting",
+      "web_writing_desc": "Optimized content for the web and natural referencing.",
+      "seo": "SEO",
+      "seo_desc": "Search engine optimization and ranking improvement.",
+      "wp": "WordPress",
+      "wp_desc": "Creation and customization of professional WordPress sites.",
+      "btn": "Discover all our services →"
+    },
+    "features": {
+      "title": "Our features",
+      "subtitle": "Innovative tools to improve your user experience",
+      "booking": "Online Booking",
+      "booking_desc": "Book your consultation directly from our site with our integrated scheduling system.",
+      "chat": "24/7 AI Chat",
+      "chat_desc": "Our intelligent virtual assistant answers your questions at any time.",
+      "payment": "Secure Payment",
+      "payment_desc": "Secure transactions and protection of your personal data.",
+      "learn_more": "Learn more →"
+    },
+    "why_us": {
+      "title": "Why choose VNP-WEB?",
+      "subtitle": "Recognized expertise serving your digital success",
+      "team": "Experienced team",
+      "team_desc": "Passionate and qualified developers at your service.",
+      "quality": "Quality guaranteed",
+      "quality_desc": "Web solutions meeting industry standards.",
+      "speed": "Fast delivery",
+      "speed_desc": "Meeting deadlines and transparent communication."
+    },
+    "testimonials": {
+      "title": "What our clients say",
+      "subtitle": "Customer satisfaction is our priority",
+      "t1_name": "Marie Dubois",
+      "t1_role": "Online Store",
+      "t1_quote": "\"VNP-WEB transformed our online presence. Our traffic increased by 200%!\"",
+      "t2_name": "Jean Martin",
+      "t2_role": "Law Firm",
+      "t2_quote": "\"Professionalism and expertise. Our site perfectly reflects our brand image.\"",
+      "t3_name": "Sophie Laurent",
+      "t3_role": "Gourmet Restaurant",
+      "t3_quote": "\"A beautiful and easy-to-manage site. Our online bookings exploded!\""
+    },
+    "cta": {
+      "title": "Ready to launch your project?",
+      "subtitle": "Contact us today and let's bring your ideas to life together",
+      "btn": "Get a free quote →"
+    }
+  }
+}
