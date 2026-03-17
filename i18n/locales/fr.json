@@ -73,12 +73,26 @@
       "btn": "Demander un devis gratuit →"
     }
   },
-  "chatbot": {
+ "chatbot": {
     "title": "Assistant VNP-WEB",
     "status": "En ligne",
     "placeholder": "Tapez votre message...",
-    "welcome_msg": "Bonjour ! Je suis l'assistant virtuel de VNP-WEB. Comment puis-je vous aider aujourd'hui ?",
-    "wait_msg": "J'ai bien reçu votre message ! Je serai bientôt connecté à une vraie IA pour vous répondre."
+    "welcome_msg": "Bonjour ! Je suis l'assistant de VNP-WEB. Que puis-je faire pour vous ?",
+    "fallback_msg": "Je suis un assistant automatisé. Pourriez-vous choisir l'une des options ci-dessous ou nous contacter ?",
+    "options": {
+      "quote": "Demander un devis",
+      "services": "Découvrir vos services",
+      "other": "Autre question"
+    },
+    "answers": {
+      "quote": "Excellent choix ! Vous pouvez nous détailler votre projet directement sur notre page de contact :",
+      "services": "Nous sommes experts en création de sites (WordPress, sur-mesure), en SEO et en rédaction web. Découvrez notre expertise ici :",
+      "other": "Pour toute question spécifique, notre équipe humaine est là pour vous ! Écrivez-nous à sio.pruvost{'@'}gmail.com ou utilisez notre formulaire :"
+    },
+    "links": {
+      "contact": "Aller à la page Contact →",
+      "services": "Voir nos services →"
+    }
   },
   "footer": {
     "description": "Développement web professionnel, SEO et rédaction de contenu pour votre réussite en ligne.",
@@ -94,4 +108,5 @@
     "contact_title": "Contact",
     "rights": "Tous droits réservés."
   }
+  
 }

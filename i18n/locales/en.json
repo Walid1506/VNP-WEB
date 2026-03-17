@@ -77,8 +77,22 @@
     "title": "VNP-WEB Assistant",
     "status": "Online",
     "placeholder": "Type your message...",
-    "welcome_msg": "Hello! I am the VNP-WEB virtual assistant. How can I help you today?",
-    "wait_msg": "I received your message! I will soon be connected to a real AI to answer you."
+    "welcome_msg": "Hello! I am the VNP-WEB assistant. How can I help you today?",
+    "fallback_msg": "I am an automated assistant. Could you please choose one of the options below or contact us?",
+    "options": {
+      "quote": "Get a quote",
+      "services": "Discover your services",
+      "other": "Other question"
+    },
+    "answers": {
+      "quote": "Excellent choice! You can detail your project directly on our contact page:",
+      "services": "We are experts in website creation (WordPress, custom), SEO, and web copywriting. Discover our expertise here:",
+      "other": "For any specific questions, our human team is here for you! Email us at sio.pruvost{'@'}gmail.com or use our form:"
+    },
+    "links": {
+      "contact": "Go to Contact page →",
+      "services": "See our services →"
+    }
   },
   "footer": {
     "description": "Professional web development, SEO, and content writing for your online success.",

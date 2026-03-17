@@ -77,8 +77,22 @@
     "title": "VNP-WEB Assistent",
     "status": "Online",
     "placeholder": "Typ uw bericht...",
-    "welcome_msg": "Hallo! Ik ben de virtuele assistent van VNP-WEB. Hoe kan ik u vandaag helpen?",
-    "wait_msg": "Ik heb uw bericht goed ontvangen! Ik word binnenkort gekoppeld aan een echte AI om u te antwoorden."
+    "welcome_msg": "Hallo! Ik ben de VNP-WEB assistent. Wat kan ik voor u doen?",
+    "fallback_msg": "Ik ben een geautomatiseerde assistent. Kunt u een van de onderstaande opties kiezen of contact met ons opnemen?",
+    "options": {
+      "quote": "Offerte aanvragen",
+      "services": "Ontdek uw diensten",
+      "other": "Andere vraag"
+    },
+    "answers": {
+      "quote": "Uitstekende keuze! U kunt uw project direct op onze contactpagina toelichten:",
+      "services": "Wij zijn experts in het maken van websites (WordPress, maatwerk), SEO en web copywriting. Ontdek onze expertise hier:",
+      "other": "Voor specifieke vragen staat ons menselijke team voor u klaar! Mail ons op sio.pruvost{'@'}gmail.com of gebruik ons formulier:"
+    },
+    "links": {
+      "contact": "Ga naar de Contactpagina →",
+      "services": "Bekijk onze diensten →"
+    }
   },
   "footer": {
     "description": "Professionele webontwikkeling, SEO en contentcreatie voor uw online succes.",
