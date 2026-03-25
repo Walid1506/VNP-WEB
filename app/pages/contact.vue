@@ -141,35 +141,68 @@ const isLoading = ref(false)
 // Pré-remplissage automatique si l'utilisateur vient de la page Services
 onMounted(() => {
   if (route.query.service) {
-    // Formatte le nom du service (ex: "redaction-web" -> "REDACTION WEB")
     const serviceName = route.query.service.replace(/-/g, ' ').toUpperCase()
     formData.value.subject = `Demande de devis : ${serviceName}`
   }
 })
 
-// Gestion de l'envoi
-const handleSubmit = () => {
+// Gestion de l'envoi avec Web3Forms
+const handleSubmit = async () => {
   isLoading.value = true
 
-  // Simulation d'un appel API (1 seconde)
-  setTimeout(() => {
-    isLoading.value = false
-    isSubmitted.value = true
+  try {
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        // La fameuse clé Web3Forms :
+        access_key: '0253ffb1-d51b-4fa7-8fc6-0579921f89fe',
+        
+        // Configuration de l'email
+        subject: `Nouveau contact VNP-WEB : ${formData.value.subject}`,
+        from_name: 'Formulaire VNP-WEB',
+        replyto: formData.value.email, // Permet de faire "Répondre" directement au client
+        
+        // Données du formulaire
+        Nom: formData.value.name,
+        Email: formData.value.email,
+        Téléphone: formData.value.phone || 'Non renseigné',
+        Sujet: formData.value.subject,
+        Message: formData.value.message
+      })
+    })
 
-    // Réinitialise le formulaire
-    formData.value = {
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: ''
+    const result = await response.json()
+
+    if (result.success) {
+      isSubmitted.value = true
+      
+      // Réinitialise le formulaire
+      formData.value = {
+        name: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: ''
+      }
+
+      // Cache le message de succès après 5 secondes
+      setTimeout(() => {
+        isSubmitted.value = false
+      }, 5000)
+    } else {
+      throw new Error("Erreur lors de l'envoi via Web3Forms")
     }
 
-    // Cache le message de succès après 5 secondes
-    setTimeout(() => {
-      isSubmitted.value = false
-    }, 5000)
-  }, 1000)
+  } catch (error) {
+    alert("Désolé, une erreur s'est produite lors de l'envoi du message.")
+    console.error(error)
+  } finally {
+    isLoading.value = false
+  }
 }
 
 useHead({
