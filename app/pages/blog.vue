@@ -1,1 +1,1 @@
-<template><div>Page Blog</div></template>
+<template><div>Page Blszszog</div></template>
