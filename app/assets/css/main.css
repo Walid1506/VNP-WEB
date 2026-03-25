@@ -1,3 +1,8 @@
+/* --- LE MOTEUR TAILWIND (À mettre absolument tout en haut) --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* --- 1. Regular (Normal) --- */
 @font-face {
   font-family: 'Dunbar Text';
@@ -40,7 +45,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; /* Améliore le rendu sur Mac */
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* On s'assure que les titres utilisent bien les versions grasses par défaut */
