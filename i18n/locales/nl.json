@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Startpagina",
+    "services": "Diensten",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "planning": "Planning",
+    "about": "Over ons",
+    "contact": "Contact",
+    "quote": "Offerte aanvragen",
+    "legal": "Juridische info"
+  },
+  "home": {
+    "hero": {
+      "title_start": "Laten we samen uw ",
+      "title_highlight": "perfecte website maken",
+      "subtitle": "Krachtige, moderne en geoptimaliseerde weboplossingen om uw bedrijf te laten groeien.",
+      "btn": "Offerte aanvragen →"
+    },
+    "stats": {
+      "projects": "Voltooide projecten",
+      "satisfaction": "Tevreden klanten",
+      "experience": "Jaar ervaring",
+      "support": "Ondersteuning beschikbaar"
+    },
+    "services": {
+      "title": "Onze diensten",
+      "subtitle": "Uitgebreide weboplossingen voor al uw digitale behoeften",
+      "web_writing": "Web Copywriting",
+      "web_writing_desc": "Geoptimaliseerde content voor het web en natuurlijke referencering.",
+      "seo": "SEO",
+      "seo_desc": "Zoekmachineoptimalisatie en verbetering van de ranking.",
+      "wp": "WordPress",
+      "wp_desc": "Creatie en aanpassing van professionele WordPress-sites.",
+      "btn": "Ontdek al onze diensten →"
+    },
+    "features": {
+      "title": "Onze functies",
+      "subtitle": "Innovatieve tools om uw gebruikerservaring te verbeteren",
+      "booking": "Online Boeking",
+      "booking_desc": "Boek uw consult direct via onze site met ons geïntegreerde planningssysteem.",
+      "chat": "24/7 AI-chat",
+      "chat_desc": "Onze intelligente virtuele assistent beantwoordt uw vragen op elk moment.",
+      "payment": "Veilige betaling",
+      "payment_desc": "Veilige transacties en bescherming van uw persoonlijke gegevens.",
+      "learn_more": "Meer informatie →"
+    },
+    "why_us": {
+      "title": "Waarom kiezen voor VNP-WEB?",
+      "subtitle": "Erkende expertise voor uw digitaal succes",
+      "team": "Ervaren team",
+      "team_desc": "Gepassioneerde en gekwalificeerde ontwikkelaars tot uw dienst.",
+      "quality": "Kwaliteit gegarandeerd",
+      "quality_desc": "Weboplossingen volgens industriestandaarden.",
+      "speed": "Snelle levering",
+      "speed_desc": "Respecteren van deadlines en transparante communicatie."
+    },
+    "testimonials": {
+      "title": "Wat onze klanten zeggen",
+      "subtitle": "Klanttevredenheid is onze prioriteit",
+      "t1_name": "Marie Dubois",
+      "t1_role": "Online Winkel",
+      "t1_quote": "\"VNP-WEB heeft onze online aanwezigheid getransformeerd. Ons verkeer is met 200% toegenomen!\"",
+      "t2_name": "Jean Martin",
+      "t2_role": "Advocatenkantoor",
+      "t2_quote": "\"Professionaliteit en expertise. Onze site weerspiegelt perfect ons merkimago.\"",
+      "t3_name": "Sophie Laurent",
+      "t3_role": "Gastronomisch Restaurant",
+      "t3_quote": "\"Een prachtige en eenvoudig te beheren site. Onze online reserveringen zijn geëxplodeerd!\""
+    },
+    "cta": {
+      "title": "Klaar om uw project te lanceren?",
+      "subtitle": "Neem vandaag nog contact met ons op en laten we samen uw ideeën tot leven brengen",
+      "btn": "Vraag een gratis offerte aan →"
+    }
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Volledige en professionele weboplossingen om aan al uw digitale behoeften te voldoen",
+    "mainOffers": "Onze belangrijkste aanbiedingen",
+    "mainOffersSubtitle": "Kies de oplossing die het beste bij uw behoeften past",
+    "popular": "Populair",
+    "bookConsultation": "Boek een consultatie",
+    "additionalServices": "Aanvullende diensten",
+    "additionalServicesSubtitle": "Aanvullende diensten om uw online aanwezigheid te optimaliseren",
+    "workProcess": "Ons werkproces",
+    "workProcessSubtitle": "Een bewezen methodologie om het succes van uw project te garanderen",
+    "question": "Een vraag over onze diensten?",
+    "questionSubtitle": "Ons team staat tot uw beschikking om uw project te bespreken"
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "subtitle": "Een vraag? Een project? Ons team staat voor u klaar",
+    "formTitle": "Stuur ons een bericht",
+    "formSubtitle": "Vul onderstaand formulier in en wij nemen zo snel mogelijk contact met u op.",
+    "location": "Onze locatie",
+    "form": {
+      "name": "Volledige naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "subject": "Onderwerp",
+      "subjectPlaceholder": "Offerte aanvraag",
+      "message": "Bericht",
+      "messagePlaceholder": "Beschrijf uw project in detail...",
+      "send": "Verzenden",
+      "sending": "Verzenden...",
+      "success": "Bedankt voor uw bericht! We antwoorden binnen 24 uur.",
+      "error": "Er is een fout opgetreden"
+    },
+    "info": {
+      "title": "Contactinformatie",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "address": "Adres",
+      "hours": "Openingstijden",
+      "hoursText": "24/7",
+      "hoursWeekend": "Altijd open",
+      "follow": "Volg ons"
+    }
+  },
+  "chatbot": {
+    "title": "VNP-WEB Assistent",
+    "status": "Online",
+    "placeholder": "Typ uw bericht...",
+    "welcome_msg": "Hallo! Ik ben de VNP-WEB assistent. Wat kan ik voor u doen?",
+    "fallback_msg": "Ik ben een geautomatiseerde assistent. Kunt u een van de onderstaande opties kiezen of contact met ons opnemen?",
+    "options": {
+      "quote": "Offerte aanvragen",
+      "services": "Ontdek uw diensten",
+      "other": "Andere vraag"
+    },
+    "answers": {
+      "quote": "Uitstekende keuze! U kunt uw project direct op onze contactpagina toelichten:",
+      "services": "Wij zijn experts in het maken van websites (WordPress, maatwerk), SEO en web copywriting. Ontdek onze expertise hier:",
+      "other": "Voor specifieke vragen staat ons menselijke team voor u klaar! Mail ons op sio.pruvost{'@'}gmail.com of gebruik ons formulier:"
+    },
+    "links": {
+      "contact": "Ga naar de Contactpagina →",
+      "services": "Bekijk onze diensten →"
+    }
+  },
+  "newsletter": {
+    "title": "Abonneer op onze nieuwsbrief",
+    "subtitle": "Ontvang ons laatste nieuws, aanbiedingen en webtips direct in uw inbox.",
+    "placeholder": "Uw e-mailadres...",
+    "button": "Abonneren",
+    "loading": "Inschrijven...",
+    "success": "Succesvol ingeschreven!"
+  },
+  "footer": {
+    "description": "Professionele webontwikkeling, SEO en contentcreatie voor uw online succes.",
+    "quick_links": "Snelle links",
+    "our_services": "Onze Diensten",
+    "services_list": {
+      "web_writing": "Web Copywriting",
+      "seo": "SEO",
+      "wordpress": "WordPress",
+      "translation": "EN-FR Vertaling",
+      "site_creation": "Website Creatie"
+    },
+    "contact_title": "Contact",
+    "rights": "Alle rechten voorbehouden.",
+    "legal": "Juridische vermeldingen"
+  },
+  "legal": {
+    "title": "Juridische Vermeldingen",
+    "subtitle": "Juridische informatie en gebruiksvoorwaarden",
+    "publisher": {
+      "title": "1. Uitgever van de site",
+      "company": "Bedrijfsnaam",
+      "form": "Rechtsvorm",
+      "formValue": "Eenmanszaak",
+      "director": "Directeur publicatie",
+      "address": "Adres",
+      "email": "E-mail",
+      "phone": "Telefoon"
+    },
+    "hosting": {
+      "title": "2. Hosting",
+      "provider": "Host",
+      "address": "Adres"
+    },
+    "intellectual": {
+      "title": "3. Intellectueel Eigendom",
+      "content1": "Alle inhoud op de VNP-WEB site (teksten, afbeeldingen, grafische elementen, logo's, video's, etc.) is het exclusieve eigendom van VNP-WEB of haar partners.",
+      "content2": "Elke reproductie, distributie, wijziging, aanpassing, heruitzending of publicatie van deze elementen is ten strengste verboden zonder voorafgaande schriftelijke toestemming van VNP-WEB.",
+      "content3": "Ongeautoriseerd gebruik van de site of een van de elementen die deze bevat, zal worden beschouwd als een inbreuk en zal worden vervolgd in overeenstemming met de bepalingen van de artikelen L.335-2 en volgende van de Franse wetgeving inzake intellectueel eigendom."
+    },
+    "privacy": {
+      "title": "4. Bescherming van persoonsgegevens",
+      "collection": {
+        "title": "Gegevensverzameling",
+        "content": "De persoonsgegevens die op deze site worden verzameld zijn:",
+        "item1": "Voor- en achternaam",
+        "item2": "E-mailadres",
+        "item3": "Telefoonnummer",
+        "item4": "Bericht of contactverzoek"
+      },
+      "usage": {
+        "title": "Gebruik van gegevens",
+        "content": "De verzamelde gegevens worden gebruikt om:",
+        "item1": "Te reageren op uw contactverzoeken",
+        "item2": "Uw dienstenreserveringen te beheren",
+        "item3": "U informatie te sturen over onze diensten",
+        "item4": "Onze diensten en uw gebruikerservaring te verbeteren"
+      },
+      "rights": {
+        "title": "Uw Rechten",
+        "content": "In overeenstemming met de AVG heeft u de volgende rechten:",
+        "item1": "Recht op toegang tot uw persoonsgegevens",
+        "item2": "Recht op rectificatie van uw gegevens",
+        "item3": "Recht op wissing van uw gegevens",
+        "item4": "Recht van bezwaar tegen de verwerking van uw gegevens"
+      }
+    },
+    "cookies": {
+      "title": "5. Cookies",
+      "content1": "De VNP-WEB site gebruikt cookies om de gebruikerservaring te verbeteren en het siteverkeer te analyseren.",
+      "content2": "U kunt cookies op elk moment uitschakkelen in uw browserinstellingen. Sommige functies van de site zijn dan mogelijk niet meer beschikbaar.",
+      "note": "Opmerking",
+      "noteContent": "Deze site gebruikt alleen technische cookies die nodig zijn voor de goede werking van de site (lokale opslag voor taalvoorkeuren)."
+    },
+    "liability": {
+      "title": "6. Aansprakelijkheid",
+      "content1": "VNP-WEB streeft ernaar de juistheid en actualisering van de informatie op deze site te waarborgen en behoudt zich het recht voor de inhoud op elk moment en zonder voorafgaande kennisgeving te corrigeren.",
+      "content2": "VNP-WEB kan echter de exactheid, precisie of volledigheid van de informatie op deze site niet garanderen.",
+      "content3": "Bijgevolg wijst VNP-WEB elke verantwoordelijkheid af voor onnauwkeurigheden, onjuistheden of weglatingen met betrekking tot informatie die op deze site beschikbaar is."
+    },
+    "links": {
+      "title": "7. Hyperlinks",
+      "content1": "De VNP-WEB site kan links bevatten naar andere websites. VNP-WEB heeft geen middelen om deze sites te controleren en aanvaardt geen verantwoordelijkheid voor hun inhoud.",
+      "content2": "Het aanmaken van hyperlinks naar de VNP-WEB site vereist voorafgaande schriftelijke toestemming."
+    },
+    "law": {
+      "title": "8. Toepasselijk Recht",
+      "content": "Deze juridische mededelingen worden beheerst door het Franse recht. In geval van een geschil en bij gebreke van een minnelijke schikking, zal het geschil aanhangig worden gemaakt bij de bevoegde Franse rechtbanken."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Voor vragen over deze juridische mededelingen of om uw rechten uit te oefenen, kunt u contact met ons opnemen:"
+    },
+    "updated": "Laatst bijgewerkt"
+  }
+}

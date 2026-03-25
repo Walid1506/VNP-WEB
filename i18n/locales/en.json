@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "planning": "Planning",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Get a quote",
+    "legal": "Legal Notice"
+  },
+  "home": {
+    "hero": {
+      "title_start": "Let's build your ",
+      "title_highlight": "perfect website",
+      "subtitle": "High-performance, modern, and optimized web solutions to grow your business.",
+      "btn": "Get a quote →"
+    },
+    "stats": {
+      "projects": "Projects completed",
+      "satisfaction": "Satisfied clients",
+      "experience": "Years experience",
+      "support": "Support available"
+    },
+    "services": {
+      "title": "Our services",
+      "subtitle": "Comprehensive web solutions for all your digital needs",
+      "web_writing": "Web Copywriting",
+      "web_writing_desc": "Optimized content for the web and natural referencing.",
+      "seo": "SEO",
+      "seo_desc": "Search engine optimization and ranking improvement.",
+      "wp": "WordPress",
+      "wp_desc": "Creation and customization of professional WordPress sites.",
+      "btn": "Discover all our services →"
+    },
+    "features": {
+      "title": "Our features",
+      "subtitle": "Innovative tools to improve your user experience",
+      "booking": "Online Booking",
+      "booking_desc": "Book your consultation directly from our site with our integrated scheduling system.",
+      "chat": "24/7 AI Chat",
+      "chat_desc": "Our intelligent virtual assistant answers your questions at any time.",
+      "payment": "Secure Payment",
+      "payment_desc": "Secure transactions and protection of your personal data.",
+      "learn_more": "Learn more →"
+    },
+    "why_us": {
+      "title": "Why choose VNP-WEB?",
+      "subtitle": "Recognized expertise serving your digital success",
+      "team": "Experienced team",
+      "team_desc": "Passionate and qualified developers at your service.",
+      "quality": "Quality guaranteed",
+      "quality_desc": "Web solutions meeting industry standards.",
+      "speed": "Fast delivery",
+      "speed_desc": "Meeting deadlines and transparent communication."
+    },
+    "testimonials": {
+      "title": "What our clients say",
+      "subtitle": "Customer satisfaction is our priority",
+      "t1_name": "Marie Dubois",
+      "t1_role": "Online Store",
+      "t1_quote": "\"VNP-WEB transformed our online presence. Our traffic increased by 200%!\"",
+      "t2_name": "Jean Martin",
+      "t2_role": "Law Firm",
+      "t2_quote": "\"Professionalism and expertise. Our site perfectly reflects our brand image.\"",
+      "t3_name": "Sophie Laurent",
+      "t3_role": "Gourmet Restaurant",
+      "t3_quote": "\"A beautiful and easy-to-manage site. Our online bookings exploded!\""
+    },
+    "cta": {
+      "title": "Ready to launch your project?",
+      "subtitle": "Contact us today and let's bring your ideas to life together",
+      "btn": "Get a free quote →"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete and professional web solutions to meet all your digital needs",
+    "mainOffers": "Our main offers",
+    "mainOffersSubtitle": "Choose the solution that best fits your needs",
+    "popular": "Popular",
+    "bookConsultation": "Book a consultation",
+    "additionalServices": "Additional services",
+    "additionalServicesSubtitle": "Additional services to optimize your online presence",
+    "workProcess": "Our work process",
+    "workProcessSubtitle": "A proven methodology to guarantee the success of your project",
+    "question": "A question about our services?",
+    "questionSubtitle": "Our team is at your disposal to discuss your project"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "A question? A project? Our team is here to help you",
+    "formTitle": "Send us a message",
+    "formSubtitle": "Fill out the form below and we will get back to you as soon as possible.",
+    "location": "Our Location",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "subjectPlaceholder": "Quote request",
+      "message": "Message",
+      "messagePlaceholder": "Describe your project in detail...",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you for your message! We will respond within 24 hours.",
+      "error": "An error occurred"
+    },
+    "info": {
+      "title": "Contact information",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "hours": "Opening hours",
+      "hoursText": "24/7",
+      "hoursWeekend": "Always open",
+      "follow": "Follow us"
+    }
+  },
+  "chatbot": {
+    "title": "VNP-WEB Assistant",
+    "status": "Online",
+    "placeholder": "Type your message...",
+    "welcome_msg": "Hello! I am the VNP-WEB assistant. How can I help you today?",
+    "fallback_msg": "I am an automated assistant. Could you please choose one of the options below or contact us?",
+    "options": {
+      "quote": "Get a quote",
+      "services": "Discover your services",
+      "other": "Other question"
+    },
+    "answers": {
+      "quote": "Excellent choice! You can detail your project directly on our contact page:",
+      "services": "We are experts in website creation (WordPress, custom), SEO, and web copywriting. Discover our expertise here:",
+      "other": "For any specific questions, our human team is here for you! Email us at sio.pruvost{'@'}gmail.com or use our form:"
+    },
+    "links": {
+      "contact": "Go to Contact page →",
+      "services": "See our services →"
+    }
+  },
+  "newsletter": {
+    "title": "Subscribe to our newsletter",
+    "subtitle": "Get our latest news, offers, and web tips directly in your inbox.",
+    "placeholder": "Your email address...",
+    "button": "Subscribe",
+    "loading": "Subscribing...",
+    "success": "Successfully subscribed!"
+  },
+  "footer": {
+    "description": "Professional web development, SEO, and content writing for your online success.",
+    "quick_links": "Quick links",
+    "our_services": "Our Services",
+    "services_list": {
+      "web_writing": "Web Copywriting",
+      "seo": "SEO",
+      "wordpress": "WordPress",
+      "translation": "EN-FR Translation",
+      "site_creation": "Website Creation"
+    },
+    "contact_title": "Contact",
+    "rights": "All rights reserved.",
+    "legal": "Legal Notice"
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "subtitle": "Legal information and terms of use",
+    "publisher": {
+      "title": "1. Site Publisher",
+      "company": "Company Name",
+      "form": "Legal Form",
+      "formValue": "Sole Proprietorship",
+      "director": "Publication Director",
+      "address": "Address",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "hosting": {
+      "title": "2. Hosting",
+      "provider": "Host",
+      "address": "Address"
+    },
+    "intellectual": {
+      "title": "3. Intellectual Property",
+      "content1": "All content on the VNP-WEB site (texts, images, graphics, logos, videos, etc.) is the exclusive property of VNP-WEB or its partners.",
+      "content2": "Any reproduction, distribution, modification, adaptation, retransmission or publication of these elements is strictly prohibited without the prior written consent of VNP-WEB.",
+      "content3": "Unauthorized use of the site or any of the elements it contains will be considered as constituting an infringement and prosecuted in accordance with the provisions of Articles L.335-2 and following of the Intellectual Property Code."
+    },
+    "privacy": {
+      "title": "4. Personal Data Protection",
+      "collection": {
+        "title": "Data Collection",
+        "content": "The personal data collected on this site are:",
+        "item1": "First and last name",
+        "item2": "Email address",
+        "item3": "Phone number",
+        "item4": "Message or contact request"
+      },
+      "usage": {
+        "title": "Data Usage",
+        "content": "The collected data is used to:",
+        "item1": "Respond to your contact requests",
+        "item2": "Manage your service bookings",
+        "item3": "Send you information about our services",
+        "item4": "Improve our services and your user experience"
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "In accordance with the GDPR, you have the following rights:",
+        "item1": "Right of access to your personal data",
+        "item2": "Right to rectify your data",
+        "item3": "Right to erase your data",
+        "item4": "Right to object to the processing of your data"
+      }
+    },
+    "cookies": {
+      "title": "5. Cookies",
+      "content1": "The VNP-WEB site uses cookies to improve the user experience and analyze site traffic.",
+      "content2": "You can disable cookies at any time in your browser settings. However, some site features may no longer be available.",
+      "note": "Note",
+      "noteContent": "This site only uses technical cookies necessary for the proper functioning of the site (local storage for language preferences)."
+    },
+    "liability": {
+      "title": "6. Liability",
+      "content1": "VNP-WEB strives to ensure the accuracy and updating of the information published on this site, and reserves the right to correct the content at any time and without notice.",
+      "content2": "However, VNP-WEB cannot guarantee the exactness, precision, or completeness of the information made available on this site.",
+      "content3": "Consequently, VNP-WEB declines all responsibility for any imprecision, inaccuracy, or omission concerning information available on this site."
+    },
+    "links": {
+      "title": "7. Hypertext Links",
+      "content1": "The VNP-WEB site may contain links to other websites. VNP-WEB has no means to control these sites and assumes no responsibility for their content.",
+      "content2": "The creation of hypertext links to the VNP-WEB site requires prior written authorization."
+    },
+    "law": {
+      "title": "8. Applicable Law",
+      "content": "These legal notices are governed by French law. In the event of a dispute and in the absence of an amicable agreement, the dispute will be brought before the French courts in accordance with the rules of jurisdiction in force."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "For any questions regarding these legal notices or to exercise your rights, you can contact us:"
+    },
+    "updated": "Last updated"
+  }
+}
