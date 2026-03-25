@@ -27,7 +27,7 @@
           </select>
         </div>
 
-        <button class="btn-quote">{{ $t('nav.quote') }}</button>
+        <NuxtLink :to="localePath('/contact')" class="btn-quote">{{ $t('nav.quote') }}</NuxtLink>
       </div>
 
     </div>
@@ -122,6 +122,8 @@ const localePath = useLocalePath()
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-decoration: none; /* Ajouté pour éviter le soulignement du lien */
+  display: inline-block;
 }
 
 .btn-quote:hover {

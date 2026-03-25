@@ -38,21 +38,22 @@
         <h4>{{ $t('footer.contact_title') }}</h4>
         <div class="contact-info">
           <p>📧 sio.pruvost@gmail.com</p>
-          <p>📞 +33 1 23 45 67 89</p>
-          <p>📍 123 Avenue de la République<br>75011 Paris, France</p>
+          <p>📞 +33 6 45 87 70 74</p>
         </div>
       </div>
 
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 VNP-WEB. {{ $t('footer.rights') }}</p>
+      <p>
+        &copy; 2026 VNP-WEB. {{ $t('footer.rights') }} | 
+        <NuxtLink to="/legale" class="legal-link">{{ $t('footer.legal') }}</NuxtLink>
+      </p>
     </div>
   </footer>
 </template>
 
 <style scoped>
 .app-footer {
-  /* On force l'application de la police sur tout le footer */
   font-family: 'Dunbar Text', system-ui, -apple-system, sans-serif;
   background-color: #0f172a;
   color: #cbd5e1;
@@ -124,5 +125,17 @@
   border-top: 1px solid #334155;
   padding-top: 20px;
   font-size: 0.9rem;
+}
+
+/* Nouveau style pour le lien des mentions légales */
+.legal-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: color 0.2s;
+}
+.legal-link:hover {
+  color: #00b4ff;
+  text-decoration: underline;
 }
 </style>

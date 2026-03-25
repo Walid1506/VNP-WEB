@@ -7,7 +7,8 @@
     "planning": "Planning",
     "about": "Over ons",
     "contact": "Contact",
-    "quote": "Offerte aanvragen"
+    "quote": "Offerte aanvragen",
+    "legal": "Juridische info"
   },
   "home": {
     "hero": {
@@ -73,6 +74,50 @@
       "btn": "Vraag een gratis offerte aan →"
     }
   },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Volledige en professionele weboplossingen om aan al uw digitale behoeften te voldoen",
+    "mainOffers": "Onze belangrijkste aanbiedingen",
+    "mainOffersSubtitle": "Kies de oplossing die het beste bij uw behoeften past",
+    "popular": "Populair",
+    "bookConsultation": "Boek een consultatie",
+    "additionalServices": "Aanvullende diensten",
+    "additionalServicesSubtitle": "Aanvullende diensten om uw online aanwezigheid te optimaliseren",
+    "workProcess": "Ons werkproces",
+    "workProcessSubtitle": "Een bewezen methodologie om het succes van uw project te garanderen",
+    "question": "Een vraag over onze diensten?",
+    "questionSubtitle": "Ons team staat tot uw beschikking om uw project te bespreken"
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "subtitle": "Een vraag? Een project? Ons team staat voor u klaar",
+    "formTitle": "Stuur ons een bericht",
+    "formSubtitle": "Vul onderstaand formulier in en wij nemen zo snel mogelijk contact met u op.",
+    "location": "Onze locatie",
+    "form": {
+      "name": "Volledige naam",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "subject": "Onderwerp",
+      "subjectPlaceholder": "Offerte aanvraag",
+      "message": "Bericht",
+      "messagePlaceholder": "Beschrijf uw project in detail...",
+      "send": "Verzenden",
+      "sending": "Verzenden...",
+      "success": "Bedankt voor uw bericht! We antwoorden binnen 24 uur.",
+      "error": "Er is een fout opgetreden"
+    },
+    "info": {
+      "title": "Contactinformatie",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "address": "Adres",
+      "hours": "Openingstijden",
+      "hoursText": "24/7",
+      "hoursWeekend": "Altijd open",
+      "follow": "Volg ons"
+    }
+  },
   "chatbot": {
     "title": "VNP-WEB Assistent",
     "status": "Online",
@@ -94,6 +139,14 @@
       "services": "Bekijk onze diensten →"
     }
   },
+  "newsletter": {
+    "title": "Abonneer op onze nieuwsbrief",
+    "subtitle": "Ontvang ons laatste nieuws, aanbiedingen en webtips direct in uw inbox.",
+    "placeholder": "Uw e-mailadres...",
+    "button": "Abonneren",
+    "loading": "Inschrijven...",
+    "success": "Succesvol ingeschreven!"
+  },
   "footer": {
     "description": "Professionele webontwikkeling, SEO en contentcreatie voor uw online succes.",
     "quick_links": "Snelle links",
@@ -106,6 +159,86 @@
       "site_creation": "Website Creatie"
     },
     "contact_title": "Contact",
-    "rights": "Alle rechten voorbehouden."
+    "rights": "Alle rechten voorbehouden.",
+    "legal": "Juridische vermeldingen"
+  },
+  "legal": {
+    "title": "Juridische Vermeldingen",
+    "subtitle": "Juridische informatie en gebruiksvoorwaarden",
+    "publisher": {
+      "title": "1. Uitgever van de site",
+      "company": "Bedrijfsnaam",
+      "form": "Rechtsvorm",
+      "formValue": "Eenmanszaak",
+      "director": "Directeur publicatie",
+      "address": "Adres",
+      "email": "E-mail",
+      "phone": "Telefoon"
+    },
+    "hosting": {
+      "title": "2. Hosting",
+      "provider": "Host",
+      "address": "Adres"
+    },
+    "intellectual": {
+      "title": "3. Intellectueel Eigendom",
+      "content1": "Alle inhoud op de VNP-WEB site (teksten, afbeeldingen, grafische elementen, logo's, video's, etc.) is het exclusieve eigendom van VNP-WEB of haar partners.",
+      "content2": "Elke reproductie, distributie, wijziging, aanpassing, heruitzending of publicatie van deze elementen is ten strengste verboden zonder voorafgaande schriftelijke toestemming van VNP-WEB.",
+      "content3": "Ongeautoriseerd gebruik van de site of een van de elementen die deze bevat, zal worden beschouwd als een inbreuk en zal worden vervolgd in overeenstemming met de bepalingen van de artikelen L.335-2 en volgende van de Franse wetgeving inzake intellectueel eigendom."
+    },
+    "privacy": {
+      "title": "4. Bescherming van persoonsgegevens",
+      "collection": {
+        "title": "Gegevensverzameling",
+        "content": "De persoonsgegevens die op deze site worden verzameld zijn:",
+        "item1": "Voor- en achternaam",
+        "item2": "E-mailadres",
+        "item3": "Telefoonnummer",
+        "item4": "Bericht of contactverzoek"
+      },
+      "usage": {
+        "title": "Gebruik van gegevens",
+        "content": "De verzamelde gegevens worden gebruikt om:",
+        "item1": "Te reageren op uw contactverzoeken",
+        "item2": "Uw dienstenreserveringen te beheren",
+        "item3": "U informatie te sturen over onze diensten",
+        "item4": "Onze diensten en uw gebruikerservaring te verbeteren"
+      },
+      "rights": {
+        "title": "Uw Rechten",
+        "content": "In overeenstemming met de AVG heeft u de volgende rechten:",
+        "item1": "Recht op toegang tot uw persoonsgegevens",
+        "item2": "Recht op rectificatie van uw gegevens",
+        "item3": "Recht op wissing van uw gegevens",
+        "item4": "Recht van bezwaar tegen de verwerking van uw gegevens"
+      }
+    },
+    "cookies": {
+      "title": "5. Cookies",
+      "content1": "De VNP-WEB site gebruikt cookies om de gebruikerservaring te verbeteren en het siteverkeer te analyseren.",
+      "content2": "U kunt cookies op elk moment uitschakkelen in uw browserinstellingen. Sommige functies van de site zijn dan mogelijk niet meer beschikbaar.",
+      "note": "Opmerking",
+      "noteContent": "Deze site gebruikt alleen technische cookies die nodig zijn voor de goede werking van de site (lokale opslag voor taalvoorkeuren)."
+    },
+    "liability": {
+      "title": "6. Aansprakelijkheid",
+      "content1": "VNP-WEB streeft ernaar de juistheid en actualisering van de informatie op deze site te waarborgen en behoudt zich het recht voor de inhoud op elk moment en zonder voorafgaande kennisgeving te corrigeren.",
+      "content2": "VNP-WEB kan echter de exactheid, precisie of volledigheid van de informatie op deze site niet garanderen.",
+      "content3": "Bijgevolg wijst VNP-WEB elke verantwoordelijkheid af voor onnauwkeurigheden, onjuistheden of weglatingen met betrekking tot informatie die op deze site beschikbaar is."
+    },
+    "links": {
+      "title": "7. Hyperlinks",
+      "content1": "De VNP-WEB site kan links bevatten naar andere websites. VNP-WEB heeft geen middelen om deze sites te controleren en aanvaardt geen verantwoordelijkheid voor hun inhoud.",
+      "content2": "Het aanmaken van hyperlinks naar de VNP-WEB site vereist voorafgaande schriftelijke toestemming."
+    },
+    "law": {
+      "title": "8. Toepasselijk Recht",
+      "content": "Deze juridische mededelingen worden beheerst door het Franse recht. In geval van een geschil en bij gebreke van een minnelijke schikking, zal het geschil aanhangig worden gemaakt bij de bevoegde Franse rechtbanken."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Voor vragen over deze juridische mededelingen of om uw rechten uit te oefenen, kunt u contact met ons opnemen:"
+    },
+    "updated": "Laatst bijgewerkt"
   }
 }

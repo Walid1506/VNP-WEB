@@ -12,7 +12,9 @@
           </div>
         </div>
         <div class="hero-image-wrapper">
-          <div class="image-placeholder">Image de présentation</div>
+          <div class="image-placeholder">
+            <img src="~/assets/images/accueil.jpeg" alt="VNP-WEB Logo" />
+          </div>
         </div>
       </div>
     </section>
@@ -247,6 +249,15 @@
   justify-content: center;
   backdrop-filter: blur(10px);
 }
+
+/* --- NOUVEAU CSS POUR L'IMAGE --- */
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+/* --------------------------------- */
 
 .stats-section {
   padding: 60px 20px;

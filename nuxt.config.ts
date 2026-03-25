@@ -21,6 +21,14 @@ export default defineNuxtConfig({
     detectBrowserLanguage: false
   },
 
+  // AJOUT : Configuration pour l'envoi de mails (Nodemailer)
+  runtimeConfig: {
+    // Ces variables ne sont accessibles que côté serveur (dans /server/api)
+    gmailUser: process.env.GMAIL_USER,
+    gmailAppPassword: process.env.GMAIL_APP_PASSWORD,
+    contactReceiver: process.env.CONTACT_RECEIVER
+  },
+
   vite: {
     optimizeDeps: {
       include: ['@vue/devtools-core', '@vue/devtools-kit']

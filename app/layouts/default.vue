@@ -2,7 +2,13 @@
   <div>
     <OrganismsAppHeader />
     
-    <slot /> <OrganismsAppFooter />
+    <main>
+      <slot />
+    </main>
+
+    <Newsletter />
+    
+    <OrganismsAppFooter />
     <OrganismsChatBotInterface />
   </div>
 </template>

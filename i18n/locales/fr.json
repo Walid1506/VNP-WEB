@@ -7,7 +7,8 @@
     "planning": "Planning",
     "about": "À propos",
     "contact": "Contact",
-    "quote": "Demander un devis"
+    "quote": "Demander un devis",
+    "legal": "Mentions légales"
   },
   "home": {
     "hero": {
@@ -73,7 +74,51 @@
       "btn": "Demander un devis gratuit →"
     }
   },
- "chatbot": {
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions web complètes et professionnelles pour répondre à tous vos besoins digitaux",
+    "mainOffers": "Nos offres principales",
+    "mainOffersSubtitle": "Choisissez la solution qui correspond le mieux à vos besoins",
+    "popular": "Populaire",
+    "bookConsultation": "Réserver une consultation",
+    "additionalServices": "Services complémentaires",
+    "additionalServicesSubtitle": "Des prestations additionnelles pour optimiser votre présence en ligne",
+    "workProcess": "Notre processus de travail",
+    "workProcessSubtitle": "Une méthodologie éprouvée pour garantir le succès de votre projet",
+    "question": "Une question sur nos services ?",
+    "questionSubtitle": "Notre équipe est à votre disposition pour discuter de votre projet"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question ? Un projet ? Notre équipe est là pour vous accompagner",
+    "formTitle": "Envoyez-nous un message",
+    "formSubtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
+    "location": "Notre localisation",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Demande de devis",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre projet en détail...",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Merci pour votre message ! Nous vous répondrons dans les 24 heures.",
+      "error": "Une erreur s'est produite"
+    },
+    "info": {
+      "title": "Informations de contact",
+      "email": "Email",
+      "phone": "Téléphone",
+      "address": "Adresse",
+      "hours": "Horaires d'ouverture",
+      "hoursText": "7J/7, 24H/24",
+      "hoursWeekend": "Toujours ouvert",
+      "follow": "Suivez-nous"
+    }
+  },
+  "chatbot": {
     "title": "Assistant VNP-WEB",
     "status": "En ligne",
     "placeholder": "Tapez votre message...",
@@ -94,6 +139,14 @@
       "services": "Voir nos services →"
     }
   },
+  "newsletter": {
+    "title": "Abonnez-vous à notre newsletter",
+    "subtitle": "Recevez nos dernières actualités, offres et conseils web directement dans votre boîte mail.",
+    "placeholder": "Votre adresse email...",
+    "button": "S'abonner",
+    "loading": "Inscription...",
+    "success": "Inscription réussie !"
+  },
   "footer": {
     "description": "Développement web professionnel, SEO et rédaction de contenu pour votre réussite en ligne.",
     "quick_links": "Liens rapides",
@@ -106,7 +159,86 @@
       "site_creation": "Création de sites"
     },
     "contact_title": "Contact",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "legal": "Mentions légales"
+  },
+  "legal": {
+    "title": "Mentions Légales",
+    "subtitle": "Informations légales et conditions d'utilisation",
+    "publisher": {
+      "title": "1. Éditeur du site",
+      "company": "Raison sociale",
+      "form": "Forme juridique",
+      "formValue": "Entreprise individuelle",
+      "director": "Directeur de publication",
+      "address": "Adresse",
+      "email": "Email",
+      "phone": "Téléphone"
+    },
+    "hosting": {
+      "title": "2. Hébergement",
+      "provider": "Hébergeur",
+      "address": "Adresse"
+    },
+    "intellectual": {
+      "title": "3. Propriété intellectuelle",
+      "content1": "L'ensemble des contenus présents sur le site VNP-WEB (textes, images, graphismes, logos, vidéos, etc.) sont la propriété exclusive de VNP-WEB ou de ses partenaires.",
+      "content2": "Toute reproduction, distribution, modification, adaptation, retransmission ou publication de ces différents éléments est strictement interdite sans l'accord écrit préalable de VNP-WEB.",
+      "content3": "L'utilisation non autorisée du site ou de l'un quelconque des éléments qu'il contient sera considérée comme constitutive d'une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle."
+    },
+    "privacy": {
+      "title": "4. Protection des données personnelles",
+      "collection": {
+        "title": "Collecte des données",
+        "content": "Les données personnelles collectées sur ce site sont :",
+        "item1": "Nom et prénom",
+        "item2": "Adresse email",
+        "item3": "Numéro de téléphone",
+        "item4": "Message ou demande de contact"
+      },
+      "usage": {
+        "title": "Utilisation des données",
+        "content": "Les données collectées sont utilisées pour :",
+        "item1": "Répondre à vos demandes de contact",
+        "item2": "Gérer vos réservations de services",
+        "item3": "Vous envoyer des informations sur nos services",
+        "item4": "Améliorer nos services et votre expérience utilisateur"
+      },
+      "rights": {
+        "title": "Vos droits",
+        "content": "Conformément au RGPD, vous disposez des droits suivants :",
+        "item1": "Droit d'accès à vos données personnelles",
+        "item2": "Droit de rectification de vos données",
+        "item3": "Droit à l'effacement de vos données",
+        "item4": "Droit d'opposition au traitement de vos données"
+      }
+    },
+    "cookies": {
+      "title": "5. Cookies",
+      "content1": "Le site VNP-WEB utilise des cookies pour améliorer l'expérience utilisateur et analyser le trafic du site.",
+      "content2": "Vous pouvez à tout moment désactiver les cookies dans les paramètres de votre navigateur. Cependant, certaines fonctionnalités du site pourraient ne plus être disponibles.",
+      "note": "Note",
+      "noteContent": "Ce site utilise uniquement des cookies techniques nécessaires au bon fonctionnement du site (stockage local pour les préférences linguistiques)."
+    },
+    "liability": {
+      "title": "6. Responsabilité",
+      "content1": "VNP-WEB s'efforce d'assurer l'exactitude et la mise à jour des informations diffusées sur ce site, dont elle se réserve le droit de corriger, à tout moment et sans préavis, le contenu.",
+      "content2": "Toutefois, VNP-WEB ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur ce site.",
+      "content3": "En conséquence, VNP-WEB décline toute responsabilité pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur ce site."
+    },
+    "links": {
+      "title": "7. Liens hypertextes",
+      "content1": "Le site VNP-WEB peut contenir des liens vers d'autres sites internet. VNP-WEB ne dispose d'aucun moyen pour contrôler ces sites et n'assume aucune responsabilité quant à leur contenu.",
+      "content2": "La création de liens hypertextes vers le site VNP-WEB nécessite une autorisation préalable écrite."
+    },
+    "law": {
+      "title": "8. Droit applicable",
+      "content": "Les présentes mentions légales sont régies par le droit français. En cas de litige et à défaut d'accord amiable, le litige sera porté devant les tribunaux français conformément aux règles de compétence en vigueur."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "Pour toute question concernant ces mentions légales ou pour exercer vos droits, vous pouvez nous contacter :"
+    },
+    "updated": "Dernière mise à jour"
   }
-  
 }
